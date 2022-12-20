@@ -9,11 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.portfolio</groupId>
-    <artifactId>mgb</artifactId>
+    <artifactId>ler</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>backendLer</name>
-    <description>Portfolio de MGB</description>
-    <properties>
+    <description>Portfolio de Lerghin</description>
+   <properties>
         <java.version>1.8</java.version>
     </properties>
     <dependencies>

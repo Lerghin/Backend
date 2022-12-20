@@ -7,21 +7,26 @@ package com.portfoliolerghin.lc.Security.Entity;
 
 
 import com.portfoliolerghin.lc.Security.Enums.RolNombre;
+import java.io.Serializable;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
 @Entity
-public class Rol {
+@Table(name = "rol")
+public class Rol implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @NotNull
     @Enumerated(EnumType.STRING)
+    @Column(name = "rol_nombre")
     private RolNombre rolNombre;
     
     //Constructor
