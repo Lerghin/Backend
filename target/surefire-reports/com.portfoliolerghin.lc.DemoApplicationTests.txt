@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.portfoliolerghin.lc.DemoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.876 s - in com.portfoliolerghin.lc.DemoApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.348 s - in com.portfoliolerghin.lc.DemoApplicationTests
